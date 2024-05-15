@@ -50,13 +50,13 @@ function renderHrTable(departments) {
         var department = alldepartmentKeys[i];
         var dept = departments[department];
         var tr = document.createElement('tr');
-        tr.innerHTML = 
-        '<td>' 
-        + department + '</td><td>' 
-        + dept.count + '</td><td>$' 
-        + totalSalary.toFixed(2) + '</td><td>$' 
-        + dept.averageSalary.toFixed(2) + 
-        '</td>';
+        // tr.innerHTML = 
+        // '<td>' 
+        // + department + '</td><td>' 
+        // + dept.count + '</td><td>$' 
+        // + totalSalary.toFixed(2) + '</td><td>$' 
+        // + dept.averageSalary.toFixed(2) + 
+        // '</td>';
 
         tr.style.textAlign = 'center';
         tbody.appendChild(tr);
