@@ -24,7 +24,8 @@ Employeeinfo.prototype.calculateSalary = function () {
 //calculating net salary
 Employeeinfo.prototype.calculateNetSalary = function () {
     let totalSalary = this.calculateSalary();
-    this.salary = Math.floor(totalSalary - (totalSalary * 0.075));
+    return this.salary = Math.floor(totalSalary - (totalSalary * 0.075));
+     
 }
 function render() {
     const container = document.getElementById("HR");
